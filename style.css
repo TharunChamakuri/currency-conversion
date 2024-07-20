@@ -33,10 +33,14 @@ body {
 }
 form input {
     width:100%;
-    border:none;
-    border-radius:15px;
     padding:10px;
     margin-top:10px;
+}
+form input:hover {
+    border-color:yellow;
+    border-radius: 10px;
+    border-width:2px;
+    border-style:dotted;
 }
 .flags {
     display:flex;
@@ -51,13 +55,16 @@ form input {
     padding:10px;
 }
 .select-container img {
-    border:none;
     border-radius:10px;
     height:50px;
     width:60px;
 }
 .to {
     margin-left:10px;
+}
+.select-container select {
+    border-radius: 15px;
+    background-color:cyan;
 }
 .msg {
     display:flex;
